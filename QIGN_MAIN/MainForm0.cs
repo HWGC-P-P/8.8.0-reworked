@@ -5928,7 +5928,9 @@ namespace QIGN_MAIN
 			mIsBoardFixed = false;
 			mIsOpenShape_Enabled = false;
 			static_firmware_version = new string[8];
-			mIsSecurityTest = true;
+			//SECURITY CHECK LICENCE BYPASS (false = no licence checks)
+			mIsSecurityTest = false;
+			//SECURITY CHECK LICENCE BYPASS
 			label_platform.Text = (Environment.Is64BitProcess ? "64" : "32");
 			tabControl_temp.Location = new Point(1285, 10);
 			base.Icon = GetIcon(1);
