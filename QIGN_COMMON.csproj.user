@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="QIGN_COMMON\FormMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_AddBom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_AHD8Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_CombinGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_Debug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_DebugMntScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_EngineerPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_FeederDisable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_FeederShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_Legal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_MessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_MultiFeeder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_NoticeError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_NozzleCheckResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_OpenShape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_Optimization_Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_optimizeNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_OptimizeResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_PcbEdit_Cat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_PikFail_HCamPrecise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_QA_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_SmtArrayIsMount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_SmtStackPlateStartIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_TestView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_UsedAsTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\Form_VisualShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_acontrol\CnButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_acontrol\CnLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_acontrol\CnSearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_acontrol\CnSearchBoxEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_CamPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_CheckH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_feederinstall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_footprint_lab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_job.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_LoopRegular.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_MarkCamPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_PcbCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_pcbedit_array.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_pcbedit_bulkadd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_pcbedit_datagridvi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_pcbedit_import.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_pcbedit_mark.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_RunStop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_SingleSmt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_SmtMarkRecognize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_SmtRunning.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_SmtSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_Stack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_Stack_feedersel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_Stack_feedersel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_SystemSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_threshold.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_UsrOperation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_class\UserControl_VisualShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_AngleSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_BoxSel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_CamDisable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_CamDistortionPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_CameraChannelMapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Cat_from_otherfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Cat_to_USR2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_datacatcat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_DebugMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_DebugTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_DebugUsr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Debug\Form_DebugDSQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Debug\Form_DebugTRAN4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_DefaultXYZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Export.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_FeederPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_FillLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_FillXY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Fill_Text.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Fill_Value_Footprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_GenPcbListConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_GenPcbListOptional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_ImportAngle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_importcat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_importcatcat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_importViewPCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_LabPrintfoot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_LabPrintfoot_Conflict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_LabProviders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_LabProvider_feedersel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Loukong_State.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Loukong_State_DSQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_MarkCamPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_MarkCamParaUSR3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_MarkCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_MarkGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_MarkTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_NozzleDeltaPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_PcbView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_PlateEmpty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_ProviderHeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_ProviderHeight_Feeder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_ProviderSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_provider_from_footprintla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_SearchExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_StartSmt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_subpcb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_SubPcbAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_SubPcbSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_ThrowRateCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_TrackNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_TrackPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_VisualTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_Waiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\Form_WarningAlarmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\vsplusForm_BigTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\vsplusForm_datagridviewSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_COMMON\vs_Forms\vsplusForm_SmtStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\FormCreateMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\FormOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Form_ChangeAllXY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Form_Fill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Form_PCBedit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Form_PikFail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Form_StackCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Form_StackPlateIndexsToo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\MainForm0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="QIGN_MAIN\Visual_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
