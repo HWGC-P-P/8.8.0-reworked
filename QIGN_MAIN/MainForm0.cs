@@ -14604,7 +14604,7 @@ namespace QIGN_MAIN
 				if (managementObjectEnumerator3.MoveNext())
 				{
 					ManagementObject managementObject3 = (ManagementObject)managementObjectEnumerator3.Current;
-					//text2 = managementObject3.Properties["SerialNumber"].Value.ToString();
+					text2 = managementObject3.Properties["SerialNumber"].Value.ToString();
 				}
 			}
 			text2 = text2 + "HWGC" + text;
